@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        
+        <main>
+        <header>
+        <nav class="topnav" id="portfolioTopnav">
+        <a href="#about">About</a> 
+        <a href="#skills">Skills</a> 
+        <a href="#accomplishments">Accomplishments</a> 
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="openMenu"><i class="fa fa-bars"></i></a>
+        </nav>
+        <title>
+        Joel Cooper's Portfolio
+        </title>
+    </head>
+    <body>
+        <h1>Joel Cooper</h1>
+        </header>
+        <!--This is the about section-->
+        <div id="aboutsection">
+            <figure>
+                <a href="https://www.linkedin.com/in/joel-cooper-3155ab15a/" target="_blank"> <img src="PROFILE PICTURE PROFESSIONAL.jpeg" width="200" height="200" alt="A picture of Joel Cooper"/> </a>
+            </figure>
+            <h2 class="heading uppercase" id="about">About</h2>
+                <p>I am a <em>first year</em> PhD student at <strong>Queensland University of Technology</strong>. I am a law and business (politics) graduate who is passionate about the law remaining flexible in the digital age.</p>
+            <br>
+            <br>
+            <h3 id="skills">Skills</h3>
+                <h4>Research Skills</h4>
+                    <ul class="list">
+                    <li>Literature Review</li>
+                    <li>Legal Analysis</li>
+                    <li>Political Analysis</li>    
+                    </ul>
+                <h4>Interpersonal Skills</h4>
+                    <ul class="list">
+                    <li>Academic Communication</li>
+                    <li>Public Speaking</li>
+                    <li>Leadership and Teamwork</li>    
+                    </ul>
+                <h4>Technical Skills</h4>
+                    <ul class="list">
+                    <li>Word Processing</li>
+                    <li>Video Production</li>
+                    <li>Graphics</li>    
+                    </ul>
+        </div>
+        <div id="accomplishmentssection">
+            <!--This is the accomplishments section-->
+            <h2 id="accomplishments">Accomplishments</h2>
+            <table>
+            <tr>
+                <th scope="col">Publications</th>
+                <th scope="col">Awards</th>
+                <th scope="col">Presentations</th>
+            </tr>
+            <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+            </tr>
+            </table>
+        </div>
+
+<h3>Coding examples</h3>
+<a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+
+        <div id="contactsection">
+            <!--This is the contact section-->
+            <h2 class=contactform id="contact">Contact</h2>
+                <a href="https://www.linkedin.com/in/joel-cooper-3155ab15a/" target="_blank">LinkedIn</a>
+            <br>
+            <br>
+            <form>
+            <label for="name">Please Enter Your Name*:</label>
+            <br>
+            <input type="text" name="Name" value="Jeff Marsh" required>
+            <br>
+            <br>
+            <label type="text" for="email">Email*</label>
+            <br>
+            <input type="text" name="Email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <br>
+            <br>
+            <label type="text" for="mobile">Mobile (optional)</label>
+            <br>
+            <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+            <br>
+            <br>
+            <label for ="message">Leave your message below*:</label>
+            <br>
+            <textarea id="message" name="message" rows="5" cols="30" required>  
+            </textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send" required>
+            </form>
+        </div>
+    </main>
+<script src="./nav.js"></script>    
+</body>
+</html>
